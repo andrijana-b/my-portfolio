@@ -2,11 +2,828 @@
 <html lang="en">
 
 <head>
-
+    <title>Andrijana Bakracheski</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,600;1,600&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <h1>Sugger wish sample</h1>
+<div class="hero-image hero-image-case-study">
+    <div class="mainnavigation">
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-2"><a href="index.html"><img src="img/logo-nobg.png" class="logo" alt="logo"></a></div>
+            <div class="col">
+                <ul class="nav justify-content-end">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle link-dark" href="#" id="navbarDropdown" role="button"
+                           data-bs-toggle="dropdown" aria-expanded="false">
+                            Projects
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="suggarwish-case-study.html">Sugarwish</a></li>
+                            <li><a class="dropdown-item" href="#">Special Olympics</a></li>
+                            <li><a class="dropdown-item" href="#">Learning on the go</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-dark" href="#">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-dark" href="#">Get in touch</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-1"></div>
+        </div>
+    </div>
+
+    <!--header-->
+    <div>
+        <header>
+            <div class="container">
+                <div class="row">
+
+                    <div class="col hero-text">
+                        <h1>Re-design of the Sugarwish ordering process</h1>
+                        <div class="case-study-date">DECEMBER 2021</div>
+                    </div>
+
+                    <div class="col">
+                        <img src="img/sugarwish/sugarwish-main.jpeg" class="sugarwish-main-image" alt="Sugarwish">
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+</div>
+
+<!-- project overview -->
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <span class="section-name">PROJECT OVERVIEW</span>
+                <h1>What is Sugarwish?</h1>
+                <p>Sugarwish is a unique gifting company based in Denver, Colorado. With a Sugarwish, the gift buyer is
+                    able to send an e-gift card digitally with no mailing address required. The gift recipient receives
+                    the eCard and is invited to go to the Sugarwish website to pick their favorite treats or
+                    beverages.</p>
+                <p>
+                    As part of the UX/UI Academy at Brainster, we were asked to work on redesign the Send a Sugarwish
+                    flow for sugarwish customers. The main points of the flow are Choose a type of gift, Choose a size,
+                    Choose an Ecard and Recipient Details, which I will explain in more detail.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h6>ROLE/TEAM</h6>
+                <p>
+                    On this task, I collaborated with Tijana Radeska and Jovan Jovanoski. As a team, we did usability
+                    testing and came up with pain points.
+                </p>
+            </div>
+            <div class="col">
+                <h6>MY RESPONSIBILITIES</h6>
+                <p>
+                    Conducting stakeholder and user interview, User research, Ideate, User journey map, Wireframes,
+                    Prototyping, Iterating on designs and Usability testing to evaluate the new designs.
+                </p>
+            </div>
+            <div class="col">
+                <h6>CLIENT</h6>
+                <p>
+                    Our client was Sugarwish. You can check their website at: www.sugarwish.com
+                </p>
+                <div class="row">
+                    <div class="col-8">
+                        <h6>DURATION</h6>
+
+                    </div>
+                    <div class="col-4">
+                        <h6>TOOLS</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- problem -->
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <span class="section-name">PROBLEM</span>
+                <h1>The existing ordering flow led users to give up when confronted with certain choices</h1>
+                <p>
+                    The challenge was to improve and create a better user experience and minimize the possible
+                    frustration during users journey on the Sugarwish website.
+                </p>
+                <p>
+                    In order to detect frustrating moments, we did research to understand users, their shopping habits
+                    and the problems they have. It was critical to get all these insights before embarking on the
+                    redesign itself, to ensure that we are solving the right problems and aligned on the project goals.
+                </p>
+            </div>
+            <div class="col">
+                <img src="img/myphoto.jpg" class="intro-img img-spacer" alt="Andrijana Bakracheski">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- goal -->
+<section>
+    <div class="container">
+        <span class="section-name">GOAL</span>
+        <h1>Improve usability by providing a fun user experience and decrease flow abandonment</h1>
+        <p>The main goal of the project was to re-design the user flow of the Sugarwish website. The main points
+            of the user flow are <span class="fw-bold">Choose a type of gift, Choose a size, Choose an Ecard and Recipient Details.</span>
+            There are some intricacies and side-flows at each step which were not in scope of this project.
+        </p>
+        <img src="https://supercat.info/wp-content/uploads/2017/02/s_1_cat.png"/>
+    </div>
+</section>
+
+<!-- design process -->
+<section>
+    <div class="container">
+        <span class="section-name">DESIGN PROCESS</span>
+        <h1>Iterative approach, testing and improving the design throughout</h1>
+        <p>
+            During the different phases of the project, I used a variety of research techniques to gather data
+            and I incorporate the findings into the design. The flowchart below outlines the core stages of my
+            redesign process.
+        </p>
+        <img src="https://supercat.info/wp-content/uploads/2017/02/s_1_cat.png"/>
+    </div>
+</section>
+
+<!-- stakeholder interview -->
+<section>
+    <div class="container">
+        <span class="section-name">DESIGN PROCESS</span>
+        <h1>
+            New ideas on how to address segments of the flow or the flow in general would
+            be considered as success
+        </h1>
+        <p>
+            First I conducted stakeholder interview to get more insights, which helped me to make the right decisions
+            and avoid end moment disappointments. During this stakeholder interview, I learned that the purpose of the
+            redesign has been tackled several times and the <span class="fw-bold">highest bounce rate</span> is on the
+            <span class="fw-bold">page choose an e-card</span> and second on <span
+                class="fw-bold">choose a size page</span>. With this information, I conducted a UX assessment to
+            understand what needed to change to create the experience the client was desiring and meet user needs.
+        </p>
+        <p>
+            Here are few questions that I asked:
+        </p>
+        <ul>
+            <li>What are the growth metrics for the next 5 years?</li>
+            <li>What are your unique selling points?</li>
+            <li>Are there any design constraints? If yes, what are they?</li>
+            <li>Because this is redesign, in which phase of the user flow is high bounce rate?</li>
+            <li>Is there any features on your website that give you advantage over your competitors?</li>
+        </ul>
+    </div>
+</section>
+
+<!-- stakeholder interview -->
+<section>
+    <div class="container">
+        <span class="section-name">USABILITY TESTING</span>
+        <h1>
+            Can purchasing be made easy and enjoyable?
+        </h1>
+        <p>
+            Usability tests were conducted before any other research to determine the areas of the website that users
+            found confusing and to potentially discover the existing pain-points.
+            <span class="fw-bold">The usability test’s goal is to uncover flaws and things that are not straightforward
+                in the designs. Using the test findings, we can iterate the designs and create a much better,
+                smoother user experience.</span>
+        </p>
+        <p>
+            Due to ongoing COVID-19 restrictions, I conducted my usability testing remotely over Zoom, asking
+            participants to share their screens and think aloud while being recorded going through the Sugarwish
+            website. I asked users to place themselves in the following scenario:
+        </p>
+        <ul>
+            <li>Visit <a href="https://sugarwish.com/" target="_blank">www.sugarwish.com</a>, choose happy birthday card
+                and buy a gift for one recipient. Your budget is 50&#36;.
+            </li>
+            <li>Visit <a href="https://sugarwish.com/" target="_blank">www.sugarwish.com</a> and buy medium box of candy
+                for five recipients. At the end edit the box and instead of medium buy large box popcorn.
+            </li>
+        </ul>
+        <h3>Key insights</h3>
+        <img src="https://supercat.info/wp-content/uploads/2017/02/s_1_cat.png"/>
+    </div>
+</section>
+
+<!-- user interview -->
+<section>
+    <div class="container">
+        <span class="section-name">USER INTERVIEW</span>
+        <h1>Some of the users considered that the website might be a "scam"</h1>
+        <!-- fixme: add bold sections -->
+        <p>
+            User interviews were conducted after the usability testing so that I could understand better the users and
+            what their needs and frustrations were. I conducted 3 face to face user interviews to understand their
+            frustrations. The biggest surprise was some of the users considered that the site might be a “scam” because
+            via the option “send the card via Fb there is no entry point for that particular information. The other
+            given options for sending the eCard are Messaging and Print which were also not clear how they work and
+            users were in doubt how to use them, and who print the card.
+        </p>
+        <p>
+            E-cards page, users found the design of the cards a little bit outdated and browsigng the cards took too
+            long.
+        </p>
+        <p>
+            "The Select: product is a special kind of gift with a deeper personalization experience. With "The Select",
+            recipients are able to select the product type first (e.g. candy, popcorn, or cookies), and then choose
+            their favorites within that product category. But even though the select is the most unique product and
+            represents as high as 80% of Sugarwish sales user were confused about the product option "The Select",
+            saying that it is not very clear what it is at first sight.
+        </p>
+    </div>
+</section>
+
+<!-- define -->
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <span class="section-name">DEFINE</span>
+                <h1>User persona</h1>
+                <p>
+                    Based on insights from usability testing, we created a user persona to help keep the design process
+                    user-centered. The goal was to get a clear understanding of the user needs before mapping out the
+                    relevant features for them. The user persona it’s a fictional character who represents the target
+                    audience of the website.
+                </p>
+            </div>
+            <div class="col">
+                <img src="https://supercat.info/wp-content/uploads/2017/02/s_1_cat.png"/>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- define -->
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <span class="section-name">DEFINE</span>
+                <h1>User journey map</h1>
+                <p>
+                    I made a visual representation of the user’s journey map across all touchpoints of the sugarwish
+                    website to understand the frustrations a user might encounter at each step of the ordering process
+                    and where we can improve the user experience.
+                </p>
+                <p>
+                    Scenario: Choose medium box of candy, with happy birthday card and at the end edit the cart and
+                    instead of medium box order large box.
+                </p>
+            </div>
+            <div class="col">
+                <img src="https://supercat.info/wp-content/uploads/2017/02/s_1_cat.png"/>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <span class="section-name">IDEATE</span>
+        <h1>Brainstorming possible solutions</h1>
+        <p>
+            To solve the users needs in a way that provides value to the company we started brainstorming on the
+            important features that we can improve on the website and came up with ideas on how to create a potential
+            solutions for better user experience.
+        </p>
+        <!-- fixme: the li is not complete -->
+        <ul>
+            <li>Improve the user flow: give the user option to choose and change products and add multiple recipients
+                from the begging of his journey
+            </li>
+            <li></li>
+        </ul>
+    </div>
+</section>
+
+<!-- ui design -->
+<section>
+    <div class="container">
+        <span class="section-name">UI DESIGN</span>
+        <h1>Design system</h1>
+        <p>
+            For this project we had access to Sugarwish design system library and also they shared photography library.
+            The photographs are used only for the purpose of the re-design and presentation in this case study.
+        </p>
+    </div>
+</section>
+
+<!-- style guide -->
+<section>
+    <div class="container">
+        STYLE GUIDE HERE
+        <img src="https://supercat.info/wp-content/uploads/2017/02/s_1_cat.png"/>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <span class="section-name">DESIGN, TEST, ITERATE</span>
+        <h1>Problem/Solution</h1>
+        <p>
+            According to Jacob’s Law, users prefer every site to work the same way as all the other sites they already
+            know, therefore we embedded our decisions in the ux theories and common e-commerce practices. We based
+            almost all our descriptions and solutions on the results that we got from our usability testings. One that
+            help us determine the pain points on the website and another that helped us to check whether our solutions
+            have improved the same.
+        </p>
+        <h2>Findings and improvement ideas</h2>
+        <div class="row">
+            <div class="col">
+                <!-- fixme: the fontawesome is not working -->
+                <i class="fa-solid fa-circle"></i> Painpoint
+                <p>Missing an indicator to show the user what page they are on, and to have a mental map for how many
+                    steps are necessary for them to finish the order</p>
+                <i class="fa-solid fa-circle"></i> Solution
+                <p>
+                    We designed a progress indicator with the brand colors of Sugarwish, that would indicate the stage
+                    of the ordering process
+                </p>
+            </div>
+            <div class="col">
+                <img src="https://supercat.info/wp-content/uploads/2017/02/s_1_cat.png"/>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <h2>Findings and improvement ideas</h2>
+        <div class="row">
+            <div class="col">
+                <!-- fixme: the fontawesome is not working -->
+                <i class="fa-solid fa-circle"></i> Painpoint
+                <p>The Select is the most unique package at Sugarwish, allowing the user to choose a size of box and
+                    send it to the recipient who would choose their favorite treat and flavour.
+                </p>
+                <p>
+                    However, our users were confused about what it actually is, and how it is different from the other
+                    products.
+                </p>
+            </div>
+            <div class="col">
+                <img src="https://supercat.info/wp-content/uploads/2017/02/s_1_cat.png"/>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <!-- fixme: the fontawesome is not working -->
+                <i class="fa-solid fa-circle"></i> Solution
+                <p>We changed the order of the products, accentuating “The Select” by making it more visible, hence
+                    giving it more importance. Also, we added a catchy copy text so that the user would get an idea how
+                    the product is different from the rest.
+                </p>
+
+                <i class="fa-solid fa-circle"></i> Painpoint
+                <p>However we created additional confusion with this solution, because during the second usability
+                    testing the users mistaken the blue coloured copy text with a link.
+                </p>
+                <p>
+                    The red-coloured copy which we created to separate the content and make it more clear, resulted in
+                    additional confusion about the hierarchy of the information as it had the same colour as the names
+                    of the products.
+                </p>
+            </div>
+            <div class="col">
+                <img src="https://supercat.info/wp-content/uploads/2017/02/s_1_cat.png"/>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- final solution -->
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <!-- fixme: the fontawesome is not working -->
+                <i class="fa-solid fa-circle"></i> Final solution
+                <p>
+                    We re re-designed "The Select" card, explaining it with a simple copy text, and improving the
+                    information
+                    hierarchy on the page and this time being very cautious about how we are using the color.
+                </p>
+            </div>
+            <div class="col">
+                <img src="https://supercat.info/wp-content/uploads/2017/02/s_1_cat.png"/>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section>
+    <div class="container">
+        <h2>Findings and improvement ideas</h2>
+        <div class="row">
+            <div class="col">
+                <!-- fixme: the fontawesome is not working -->
+                <i class="fa-solid fa-circle"></i> Painpoint
+                <p>
+                    Most of the users did not scroll down the page while they were choosing a size of box, meaning that
+                    they failed to notice the "Sweet Shoppes" size, as well as the additional info about the products.
+                </p>
+            </div>
+            <div class="col">
+                <img src="https://supercat.info/wp-content/uploads/2017/02/s_1_cat.png"/>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <!-- fixme: the fontawesome is not working -->
+                <i class="fa-solid fa-circle"></i> Solution
+                <p>
+                    We redesigned the price cards so that the whole content is visible for the user without scrolling.
+                    With this design also the content regarding the products and flavors is above the fold, now it’s
+                    more visible for the user and harder to miss.
+                </p>
+                <!-- fixme: the fontawesome is not working -->
+                <i class="fa-solid fa-circle"></i> Painpoint
+                <p>
+                    However during the second usability testing we realised that the users are focusing on the picture
+                    and the button. And they are failing to read the info about how many flavours they are getting with
+                    the chosen box and price.
+                </p>
+            </div>
+            <div class="col">
+                <img src="https://supercat.info/wp-content/uploads/2017/02/s_1_cat.png"/>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <!-- fixme: the fontawesome is not working -->
+                <i class="fa-solid fa-circle"></i> Final Solution
+                <p>
+                    I’ve put the text under the picture, so that the users would read how many flavors they are getting
+                    with the chosen box. I put the price in the main button, so that it changes accordingly with the
+                    chosen box.
+                </p>
+            </div>
+            <div class="col">
+                <img src="https://supercat.info/wp-content/uploads/2017/02/s_1_cat.png"/>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <h2>Findings and improvement ideas</h2>
+        <div class="row">
+            <div class="col">
+                <!-- fixme: the fontawesome is not working -->
+                <i class="fa-solid fa-circle"></i> Painpoint
+                <p>
+                    Almost all of the users were confused about the page with eCards, firstly because too many similar
+                    choices are offered at once, and secondly, because some of the users failed to notice the Occasion
+                    filter. Some users lingered on the page more than necessary, they became indecisive not being able
+                    to choose what they want to choose and often times they would completly abandon the flow at this
+                    point.
+                </p>
+            </div>
+            <div class="col">
+                <img src="https://supercat.info/wp-content/uploads/2017/02/s_1_cat.png"/>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <!-- fixme: the fontawesome is not working -->
+                <i class="fa-solid fa-circle"></i> Final Solution
+                <p>
+                    Following the UX principles regarding the “movement of the eyes” on a website, I moved the Occasion
+                    Filter on the left of the page so that it would be the first thing the user would notice.
+                </p>
+                <p>
+                    I changed the cards, and limited the choice. Also, if the “See All” category is selected only six
+                    featured cards would be visible (as in all other categories), to prevent the user from getting
+                    confused or frustrated about their choice.
+                </p>
+                <p>
+                    I also added the video explaining what happens with the chosen card and how the recipient would
+                    receive it.
+                </p>
+            </div>
+            <div class="col">
+                <img src="https://supercat.info/wp-content/uploads/2017/02/s_1_cat.png"/>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section>
+    <div class="container">
+        <h2>Findings and improvement ideas</h2>
+        <h2>SLIDE OUT PANEL LOG IN AND SENDING E-CARD</h2>
+        <div class="row">
+            <div class="col">
+                <h3>LOG IN</h3>
+                <!-- fixme: the fontawesome is not working -->
+                <i class="fa-solid fa-circle"></i> Painpoint
+                <p>
+                    This step was unpleasant for the users as it came unexpectedly after they chose the e-card and some
+                    of them said that they would give up. Users would prefer if their ordering flow is interrupted and
+                    if the logging in is given as an option rather than a requirement in some of the further steps
+                    before completing the order.
+                </p>
+            </div>
+            <div class="col">
+                <img src="https://supercat.info/wp-content/uploads/2017/02/s_1_cat.png"/>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2>SENDING E-CARD</h2>
+                <!-- fixme: the fontawesome is not working -->
+                <i class="fa-solid fa-circle"></i> Painpoint
+                <p>
+                    The users were confused about what this is actually about, why it is given such importance and why
+                    there is so much “business” they have to do which prevents them from completing the order.
+                    On the other hand, some remarked that the messaging/facebook option looks like spam, while for the
+                    printing option it is not clear who prints the card and how.
+                </p>
+            </div>
+            <div class="col">
+                <img src="https://supercat.info/wp-content/uploads/2017/02/s_1_cat.png"/>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section>
+    <div class="container">
+        <h2>Findings and improvement ideas</h2>
+        <h2>PAGE: ADD RECIPIENT</h2>
+        <div class="row">
+            <div class="col">
+                <!-- fixme: the fontawesome is not working -->
+                <i class="fa-solid fa-circle"></i> Painpoint
+                <p>
+                    Users were wondering how they could change the order from this particular step if they wanted to do
+                    so. They expressed dissatisfaction with not being able to move back and forward on the website,
+                    change their order, and see their order whenever they wanted to.
+                </p>
+            </div>
+            <div class="col">
+                <img src="https://supercat.info/wp-content/uploads/2017/02/s_1_cat.png"/>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <!-- fixme: the fontawesome is not working -->
+                <i class="fa-solid fa-circle"></i> Final solution
+                <p>
+                    My biggest challenge at this point was to simplify the steps and adapt the flow to the users’
+                    expectations, in order to provide a pleasant journey and avoid confusion and frustration.
+                </p>
+                <p>
+                    What I did it was a simple merging of the three slide out panels (Log in, Sending eCard and Add
+                    recipient) into one screen.
+                    To avoid further frustrations and confusion I designed page where I added all this features where
+                    users can:
+                </p>
+                <ul>
+                    <li>preview and change his order, e-card</li>
+                    <li>add, change, preview, and remove recipients</li>
+                    <li>log in</li>
+                    <li>improved UI by making the images stand out</li>
+                    <li>added an option to send the eCard today or schedule for later,
+                        making it possible for the user to completely skip the calendar step and to lower the cognitive
+                        load all together if they don’t want to go through the dates.
+                    </li>
+                </ul>
+            </div>
+            <div class="col">
+                <img src="https://supercat.info/wp-content/uploads/2017/02/s_1_cat.png"/>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <span>Preview e-card</span><br/>
+                <img src="https://www.clipartmax.com/png/small/144-1441296_%E2%80%9Csupercats%E2%80%9D-can-save-the-day-for-scottish-wildcats-super-cat.png"/>
+            </div>
+            <div class="col">
+                <span>Change gift selection</span><br/>
+                <img src="https://www.clipartmax.com/png/small/144-1441296_%E2%80%9Csupercats%E2%80%9D-can-save-the-day-for-scottish-wildcats-super-cat.png"/>
+            </div>
+            <div class="col">
+                <br/>
+                <img src="https://www.clipartmax.com/png/small/144-1441296_%E2%80%9Csupercats%E2%80%9D-can-save-the-day-for-scottish-wildcats-super-cat.png"/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <p>
+                    We haven't done any major changes on the e-card preview, only we improved the information hierarchy
+                </p>
+            </div>
+            <div class="col">
+                <p>
+                    Change gift selection - slide out panel where the user can make the changes for the product type and
+                    box size
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <h2>Findings and improvement ideas</h2>
+        <h2>PAGE: SHOPPING CART</h2>
+        <div class="row">
+            <div class="col">
+                <!-- fixme: the fontawesome is not working -->
+                <i class="fa-solid fa-circle"></i> Painpoint
+                <p>
+                    The shopping card icon do not indicate the number of the items in it making it a bit confusing for
+                    the users whether they have successfully added something into the cart or not.
+                </p>
+                <p>
+                    During the second usability testing the remark we got was that the “Log In” option should be
+                    optional and at the very end of the flow, perhaps where the cart is.
+                </p>
+            </div>
+            <div class="col">
+                <img src="https://supercat.info/wp-content/uploads/2017/02/s_1_cat.png"/>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <!-- fixme: the fontawesome is not working -->
+                <i class="fa-solid fa-circle"></i> Final solution
+                <ul>
+                    <li>The shopping card icon now shows the number of items in it, making it easier for the users to
+                        keep track of what they are buying.
+                    </li>
+                    <li>I added a Continue shopping button, to signal to users they can easily leave the cart without
+                        losing its content or they can proceed with the payment.
+                    </li>
+                    <li>I followed our users preference and I moved the login option at the very end of the user flow,
+                        where the recipient can preview their complete order and where they can proceed with the
+                        payment.
+                    </li>
+                </ul>
+            </div>
+            <div class="col">
+                <div class="row">
+                    <div class="col">
+                        <img src="https://supercat.info/wp-content/uploads/2017/02/s_1_cat.png"/>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        To avoid any confusion among our users, I designed slide out panel with system feedback massage
+                        that would notify the users that their card is empty if they haven’t purchase anything yet.
+                    </div>
+                    <div class="col">
+                        <img src="https://www.clipartmax.com/png/small/144-1441296_%E2%80%9Csupercats%E2%80%9D-can-save-the-day-for-scottish-wildcats-super-cat.png"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <h1>Client feedback</h1>
+        <h5>Team Sharks - the best solution</h5>
+        <p>We feel that from all the teams Sharks had the best desktop solution for the flow. We liked the size
+            presentations on the Choose size screen and the simple filters for the eCards. The recipient page was a
+            little messy, but it still followed established patterns. We appreciated the complete approach that the
+            group took before dealing with the actual problems. Based on their studies they identified specific issues
+            (aka pain points) and addressed them accordingly.
+        </p>
+        <p>It would have been great to see how the group would address the mobile flow, but the absence of mobile
+            screens is not taken as a negative.</p>
+
+        <h1>My learnings & Conclusion</h1>
+        <p>
+            It was a fun yet quite challenging experience working on this project because it was first time for me doing
+            re-design with the main focus only on one part of the website which is customer experience of ordering
+            section.
+        </p>
+        <p>
+            This project taught me how to work within the constraints of an existing product and design within an
+            existing system, relying on already present design patterns and components. Since users are already familiar
+            with these conventions, breaking them could hurt usability.
+        </p>
+        <p>
+            Most importantly I learnt that the first ideas for the website are only the beginning of the design process
+            and “no design is perfect, there is always a room for improvements”.
+        </p>
+        <p>
+            Usability testing and feedback influenced each iteration of the sugarwish ordering flow design and that
+            point to me to appreciate gradual improvement rather than striving to perfectionism.
+        </p>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <h3>MORE PROJECTS</h3>
+        <div class="row">
+            <div class="col">
+                Learning UX on the go - Microlearning mobile app
+            </div>
+            <div class="col">&nbsp;</div>
+            <div class="col">
+                Responsive web design for angle-right Special Olympics N.Macedonia
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--footer-->
+<div class="footer">
+    <footer>
+        <p class="footer-text">Have a question, some feedback, or an idea? I’m open for new
+            opportunities.<br/>
+            Fell free to contact me.</p>
+    </footer>
+
+    <ul class="footer-contacts">
+        <li><a href="">EMAIL <i class=" fas fa-arrow-right"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/andrijana-bakracheski-6043b5140/" target="_blank">LINKEDIN
+            <i class="fas fa-arrow-right"></i></a></li>
+    </ul>
+</div>
+
 </body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/bfeb57c367.js" crossorigin="anonymous"></script>
 
 </html>
