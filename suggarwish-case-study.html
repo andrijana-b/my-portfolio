@@ -10,7 +10,8 @@
           integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,600;1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;600&family=Lato:wght@300;400&display=swap"
+          rel="stylesheet">
 </head>
 
 <body>
@@ -50,8 +51,9 @@
             <div class="container">
                 <div class="row">
 
-                    <div class="col hero-text">
-                        <h1>Re-design of the Sugarwish ordering process</h1>
+                    <div class="col cs-hero-text">
+                        <img src="img/sugarwish/sugarwish-logo-sm.png" alt="small-logo" style="width: 16%">
+                        <h1 class="cs-title">Re-design of the Sugarwish ordering process</h1>
                         <div class="case-study-date">DECEMBER 2021</div>
                     </div>
 
@@ -66,49 +68,65 @@
 
 <!-- project overview -->
 <section>
-    <div class="container">
+    <div class="container cs-section-spacer">
         <div class="row">
             <div class="col">
-                <span class="section-name">PROJECT OVERVIEW</span>
-                <h1>What is Sugarwish?</h1>
-                <p>Sugarwish is a unique gifting company based in Denver, Colorado. With a Sugarwish, the gift buyer is
+                <span class="cs-section-name">PROJECT OVERVIEW</span>
+                <h1 class="cs-section-title">What is Sugarwish?</h1>
+                <p class="cs-paragraph">Sugarwish is a unique gifting company based in Denver, Colorado. With a
+                    Sugarwish, the gift buyer is
                     able to send an e-gift card digitally with no mailing address required. The gift recipient receives
                     the eCard and is invited to go to the Sugarwish website to pick their favorite treats or
                     beverages.</p>
-                <p>
-                    As part of the UX/UI Academy at Brainster, we were asked to work on redesign the Send a Sugarwish
-                    flow for sugarwish customers. The main points of the flow are Choose a type of gift, Choose a size,
-                    Choose an Ecard and Recipient Details, which I will explain in more detail.
+                <p class="cs-paragraph">
+                    As part of the UX/UI Academy at Brainster, we were asked to work on redesign on small subset of
+                    screens of already existing website which use design system. Our ideas and final solution should be
+                    designed in such a way that can be applied without influence on the consistency and the design of
+                    the already existing website.
                 </p>
             </div>
         </div>
+        <div class="spacer-md">&nbsp;</div>
         <div class="row">
             <div class="col">
-                <h6>ROLE/TEAM</h6>
-                <p>
+                <span class="cs-section-name">ROLE/TEAM</span>
+                <p class="cs-paragraph">
                     On this task, I collaborated with Tijana Radeska and Jovan Jovanoski. As a team, we did usability
                     testing and came up with pain points.
                 </p>
             </div>
             <div class="col">
-                <h6>MY RESPONSIBILITIES</h6>
-                <p>
+                <span class="cs-section-name">MY RESPONSIBILITIES</span>
+                <p class="cs-paragraph">
                     Conducting stakeholder and user interview, User research, Ideate, User journey map, Wireframes,
                     Prototyping, Iterating on designs and Usability testing to evaluate the new designs.
                 </p>
             </div>
             <div class="col">
-                <h6>CLIENT</h6>
-                <p>
-                    Our client was Sugarwish. You can check their website at: www.sugarwish.com
+                <span class="cs-section-name">CLIENT</span>
+                <p class="cs-paragraph">
+                    Our client was Sugarwish. You can check their website at: <a href="https://sugarwish.com/"
+                                                                                 target="_blank">www.sugarwish.com</a>
                 </p>
+                <div class="spacer-md">&nbsp;</div>
                 <div class="row">
                     <div class="col-8">
-                        <h6>DURATION</h6>
-
+                        <span class="cs-section-name">DURATION</span>
                     </div>
                     <div class="col-4">
-                        <h6>TOOLS</h6>
+                        <span class="cs-section-name">TOOLS</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="col duration"><span>4</span><br/> weeks</div>
+                            <div class="col duration"><span>11</span><br/> screens</div>
+                            <div class="col duration"><span>2</span> <br/> iterations</div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <img src="img/sugarwish/figma-logo.png" alt="figma-logo" style="width: 35%; margin-top: 10px;"/>
                     </div>
                 </div>
             </div>
@@ -118,24 +136,25 @@
 </section>
 
 <!-- problem -->
-<section>
-    <div class="container">
+<section class="container-color">
+    <div class="container cs-section-spacer">
         <div class="row">
             <div class="col">
-                <span class="section-name">PROBLEM</span>
-                <h1>The existing ordering flow led users to give up when confronted with certain choices</h1>
-                <p>
+                <span class="cs-section-name">PROBLEM</span>
+                <h1 class="cs-section-title">The existing ordering flow led users to give up when confronted with
+                    certain choices</h1>
+                <p class="cs-paragraph">
                     The challenge was to improve and create a better user experience and minimize the possible
                     frustration during users journey on the Sugarwish website.
                 </p>
-                <p>
+                <p class="cs-paragraph">
                     In order to detect frustrating moments, we did research to understand users, their shopping habits
                     and the problems they have. It was critical to get all these insights before embarking on the
                     redesign itself, to ensure that we are solving the right problems and aligned on the project goals.
                 </p>
             </div>
             <div class="col">
-                <img src="img/myphoto.jpg" class="intro-img img-spacer" alt="Andrijana Bakracheski">
+                <img src="img/sugarwish/laptop-image.png" alt="sugarwish">
             </div>
         </div>
     </div>
@@ -143,40 +162,43 @@
 
 <!-- goal -->
 <section>
-    <div class="container">
-        <span class="section-name">GOAL</span>
-        <h1>Improve usability by providing a fun user experience and decrease flow abandonment</h1>
-        <p>The main goal of the project was to re-design the user flow of the Sugarwish website. The main points
+    <div class="container cs-section-spacer">
+        <span class="cs-section-name">GOAL</span>
+        <h1 class="cs-section-title">Improve usability by providing a fun user experience and decrease flow
+            abandonment</h1>
+        <p class="cs-paragraph">
+            The main goal of the project was to re-design the user flow of the Sugarwish website. The main points
             of the user flow are <span class="fw-bold">Choose a type of gift, Choose a size, Choose an Ecard and Recipient Details.</span>
             There are some intricacies and side-flows at each step which were not in scope of this project.
         </p>
-        <img src="https://supercat.info/wp-content/uploads/2017/02/s_1_cat.png"/>
+        <img src="img/sugarwish/goal-image.png" alt="GOAL" style="width: 100%;"/>
     </div>
 </section>
 
 <!-- design process -->
 <section>
-    <div class="container">
-        <span class="section-name">DESIGN PROCESS</span>
-        <h1>Iterative approach, testing and improving the design throughout</h1>
-        <p>
+    <div class="container cs-section-spacer-down">
+        <span class="cs-section-name">DESIGN PROCESS</span>
+        <h1 class="cs-section-title">Iterative approach, testing and improving the design throughout</h1>
+        <p class="cs-paragraph">
             During the different phases of the project, I used a variety of research techniques to gather data
             and I incorporate the findings into the design. The flowchart below outlines the core stages of my
             redesign process.
         </p>
-        <img src="https://supercat.info/wp-content/uploads/2017/02/s_1_cat.png"/>
+        <!-- fixme: make it center -->
+        <img src="img/sugarwish/design-process.png" alt="design process" style="width: 60%;"/>
     </div>
 </section>
 
 <!-- stakeholder interview -->
-<section>
-    <div class="container">
-        <span class="section-name">DESIGN PROCESS</span>
-        <h1>
+<section class="container-color">
+    <div class="container cs-section-spacer">
+        <span class="cs-section-name">DESIGN PROCESS</span>
+        <h1 class="cs-section-title">
             New ideas on how to address segments of the flow or the flow in general would
             be considered as success
         </h1>
-        <p>
+        <p class="cs-paragraph">
             First I conducted stakeholder interview to get more insights, which helped me to make the right decisions
             and avoid end moment disappointments. During this stakeholder interview, I learned that the purpose of the
             redesign has been tackled several times and the <span class="fw-bold">highest bounce rate</span> is on the
@@ -184,10 +206,10 @@
                 class="fw-bold">choose a size page</span>. With this information, I conducted a UX assessment to
             understand what needed to change to create the experience the client was desiring and meet user needs.
         </p>
-        <p>
+        <p class="cs-paragraph">
             Here are few questions that I asked:
         </p>
-        <ul>
+        <ul class="cs-bullet-points">
             <li>What are the growth metrics for the next 5 years?</li>
             <li>What are your unique selling points?</li>
             <li>Are there any design constraints? If yes, what are they?</li>
@@ -197,26 +219,26 @@
     </div>
 </section>
 
-<!-- stakeholder interview -->
+<!-- usability testing -->
 <section>
-    <div class="container">
-        <span class="section-name">USABILITY TESTING</span>
-        <h1>
+    <div class="container cs-section-spacer">
+        <span class="cs-section-name">USABILITY TESTING</span>
+        <h1 class="cs-section-title">
             Can purchasing be made easy and enjoyable?
         </h1>
-        <p>
+        <p class="cs-paragraph">
             Usability tests were conducted before any other research to determine the areas of the website that users
             found confusing and to potentially discover the existing pain-points.
             <span class="fw-bold">The usability test’s goal is to uncover flaws and things that are not straightforward
                 in the designs. Using the test findings, we can iterate the designs and create a much better,
                 smoother user experience.</span>
         </p>
-        <p>
+        <p class="cs-paragraph">
             Due to ongoing COVID-19 restrictions, I conducted my usability testing remotely over Zoom, asking
             participants to share their screens and think aloud while being recorded going through the Sugarwish
             website. I asked users to place themselves in the following scenario:
         </p>
-        <ul>
+        <ul class="cs-bullet-points">
             <li>Visit <a href="https://sugarwish.com/" target="_blank">www.sugarwish.com</a>, choose happy birthday card
                 and buy a gift for one recipient. Your budget is 50&#36;.
             </li>
@@ -224,47 +246,54 @@
                 for five recipients. At the end edit the box and instead of medium buy large box popcorn.
             </li>
         </ul>
-        <h3>Key insights</h3>
-        <img src="https://supercat.info/wp-content/uploads/2017/02/s_1_cat.png"/>
+        <!-- fixme: make it center -->
+        <img src="img/sugarwish/key-insights.png" alt="key insights" style="width: 60%;"/>
     </div>
 </section>
 
 <!-- user interview -->
-<section>
-    <div class="container">
-        <span class="section-name">USER INTERVIEW</span>
-        <h1>Some of the users considered that the website might be a "scam"</h1>
+<section class="container-color">
+    <div class="container cs-section-spacer">
+        <span class="cs-section-name">USER INTERVIEW</span>
+        <h1 class="cs-section-title">
+            Some of the users considered that the website might be a "scam"
+        </h1>
         <!-- fixme: add bold sections -->
-        <p>
+        <p class="cs-paragraph">
             User interviews were conducted after the usability testing so that I could understand better the users and
             what their needs and frustrations were. I conducted 3 face to face user interviews to understand their
-            frustrations. The biggest surprise was some of the users considered that the site might be a “scam” because
-            via the option “send the card via Fb there is no entry point for that particular information. The other
+            frustrations. The biggest surprise was some of the users considered that the site might be a <span
+                class="fw-bold">"scam"</span> because
+            via the option <span class="fw-bold">"send the card via FB" there is no entry point for that particular information</span>.
+            The other
             given options for sending the eCard are Messaging and Print which were also not clear how they work and
             users were in doubt how to use them, and who print the card.
         </p>
-        <p>
-            E-cards page, users found the design of the cards a little bit outdated and browsigng the cards took too
-            long.
+        <p class="cs-paragraph">
+            <span class="fw-bold">E-cards page</span>, users found the design of the cards a little <span
+                class="fw-bold">outdated and browsing the cards took too
+            long.</span>
         </p>
-        <p>
-            "The Select: product is a special kind of gift with a deeper personalization experience. With "The Select",
+        <p class="cs-paragraph">
+            <span class="fw-bold">"The Select"</span> product is a special kind of gift with a deeper personalization
+            experience. With "The Select",
             recipients are able to select the product type first (e.g. candy, popcorn, or cookies), and then choose
             their favorites within that product category. But even though the select is the most unique product and
-            represents as high as 80% of Sugarwish sales user were confused about the product option "The Select",
-            saying that it is not very clear what it is at first sight.
+            represents as high as 80% of Sugarwish sales user were confused about the product option <span
+                class="fw-bold">"The Select"</span>,
+            saying that it is <span class="fw-bold">not very clear what it is at first sight</span>.
         </p>
     </div>
 </section>
 
 <!-- define -->
 <section>
-    <div class="container">
+    <div class="container cs-section-spacer">
         <div class="row">
-            <div class="col-4">
-                <span class="section-name">DEFINE</span>
-                <h1>User persona</h1>
-                <p>
+            <div class="col-5">
+                <span class="cs-section-name">DEFINE</span>
+                <h1 class="cs-section-title">User persona</h1>
+                <p class="cs-paragraph">
                     Based on insights from usability testing, we created a user persona to help keep the design process
                     user-centered. The goal was to get a clear understanding of the user needs before mapping out the
                     relevant features for them. The user persona it’s a fictional character who represents the target
@@ -272,61 +301,77 @@
                 </p>
             </div>
             <div class="col">
-                <img src="https://supercat.info/wp-content/uploads/2017/02/s_1_cat.png"/>
+                <img src="img/sugarwish/user-persona.png" alt="user persona" style="width: 90%;"/>
             </div>
         </div>
     </div>
 </section>
 
-<!-- define -->
-<section>
-    <div class="container">
+<!-- define user journey -->
+<section class="container-color">
+    <div class="container cs-section-spacer">
         <div class="row">
-            <div class="col-4">
-                <span class="section-name">DEFINE</span>
-                <h1>User journey map</h1>
-                <p>
+            <div class="col-5">
+                <span class="cs-section-name">DEFINE</span>
+                <h1 class="cs-section-title">User journey map</h1>
+                <p class="cs-paragraph">
                     I made a visual representation of the user’s journey map across all touchpoints of the sugarwish
                     website to understand the frustrations a user might encounter at each step of the ordering process
                     and where we can improve the user experience.
                 </p>
-                <p>
+                <p class="cs-paragraph">
                     Scenario: Choose medium box of candy, with happy birthday card and at the end edit the cart and
                     instead of medium box order large box.
                 </p>
             </div>
+            <div class="col-1">
+            </div>
             <div class="col">
-                <img src="https://supercat.info/wp-content/uploads/2017/02/s_1_cat.png"/>
+                <img src="img/sugarwish/user-journey-map.png" alt="user journey map" style="width: 80%;"/>
             </div>
         </div>
     </div>
 </section>
 
 <section>
-    <div class="container">
-        <span class="section-name">IDEATE</span>
-        <h1>Brainstorming possible solutions</h1>
-        <p>
+    <div class="container cs-section-spacer">
+        <span class="cs-section-name">IDEATE</span>
+        <h1 class="cs-section-title">Brainstorming possible solutions</h1>
+        <p class="cs-paragraph">
             To solve the users needs in a way that provides value to the company we started brainstorming on the
             important features that we can improve on the website and came up with ideas on how to create a potential
             solutions for better user experience.
         </p>
-        <!-- fixme: the li is not complete -->
-        <ul>
+        <!-- fixme: check awesome fonts if you can change the bullets design -->
+        <ul class="cs-bullet-points">
             <li>Improve the user flow: give the user option to choose and change products and add multiple recipients
                 from the begging of his journey
             </li>
-            <li></li>
+            <li>Introduce progress bar to reduce uncertainty and indicate the stage of the ordering process</li>
+            <li>We added an option to send the e-card today or schedule for later, making it possible for the user to
+                completely skip the calendar step
+            </li>
+            <li>If the user adds more than one recipient, show all recipients on same page, give option with add more,
+                so he doesn't have to click back and forward to add more recipients
+            </li>
+            <li>Explain the chosen delivery method immediately, to let the user know how it works if they choose email,
+                messaging or print
+            </li>
+            <li>Give option to add different box size and type if they want to change their order</li>
+            <li>Present "The select" and the other product options in different way so the user can immediately see what
+                is the difference
+            </li>
+            <li>Offer guest log in and allow checkout without registration</li>
         </ul>
     </div>
 </section>
 
 <!-- ui design -->
 <section>
-    <div class="container">
-        <span class="section-name">UI DESIGN</span>
-        <h1>Design system</h1>
-        <p>
+    <div class="container cs-section-spacer-down">
+        <span class="cs-section-name">UI DESIGN</span>
+        <h1 class="cs-section-title">Design system</h1>
+        <p class="cs-paragraph">
             For this project we had access to Sugarwish design system library and also they shared photography library.
             The photographs are used only for the purpose of the re-design and presentation in this case study.
         </p>
@@ -334,18 +379,18 @@
 </section>
 
 <!-- style guide -->
-<section>
+<section class="container-color">
     <div class="container">
-        STYLE GUIDE HERE
-        <img src="https://supercat.info/wp-content/uploads/2017/02/s_1_cat.png"/>
+        <!-- fixme: make it center -->
+        <img src="img/sugarwish/style-guide.png" alt="style guide" style="width: 50%;"/>
     </div>
 </section>
 
 <section>
-    <div class="container">
-        <span class="section-name">DESIGN, TEST, ITERATE</span>
-        <h1>Problem/Solution</h1>
-        <p>
+    <div class="container cs-section-spacer">
+        <span class="cs-section-name">DESIGN, TEST, ITERATE</span>
+        <h1 class="cs-section-title">Problem/Solution</h1>
+        <p class="cs-paragraph">
             According to Jacob’s Law, users prefer every site to work the same way as all the other sites they already
             know, therefore we embedded our decisions in the ux theories and common e-commerce practices. We based
             almost all our descriptions and solutions on the results that we got from our usability testings. One that

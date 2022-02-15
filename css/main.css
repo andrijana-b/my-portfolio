@@ -183,6 +183,70 @@ h2 {
 }
 
 /* case study design*/
+.container-color {
+    background-color: #F9F7F6;
+}
+
 .sugarwish-main-image {
     max-width: 100%;
+}
+
+.cs-hero-text {
+    padding: 100px;
+}
+
+.cs-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 600;
+    font-size: 58px;
+}
+
+.cs-section-name {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #B29993;
+    font-size: 14px;
+}
+
+.cs-section-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 600;
+    color: #27375B;
+    font-size: 40px;
+    margin: 8px 0 32px 0;
+}
+
+.cs-paragraph {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.cs-bullet-points li {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.cs-paragraph a, .cs-bullet-points a {
+    color: inherit;
+}
+
+.duration {
+    text-align: center;
+}
+.duration span {
+    font-size: 30px;
+}
+
+.cs-section-spacer {
+    padding: 100px;
+}
+
+.cs-section-spacer-down {
+    padding-bottom: 100px;
+}
+
+.spacer-md {
+    margin: 20px 0 10px 0;
 }
