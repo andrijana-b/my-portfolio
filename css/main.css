@@ -118,7 +118,7 @@ h2 {
     width: 100%;
     border-bottom: 5px solid #F2F2F2;
     line-height: 0.1em;
-    margin: 40px 0 20px;
+    margin: 60px 0 20px;
 
     font-family: 'Cormorant Garamond', serif;
     font-weight: 700;
@@ -142,7 +142,15 @@ h2 {
 /*    !*margin-bottom: 54px;*!*/
 /*}*/
 
-.case-study, .case-study-date {
+.case-study {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: #B29993;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.case-study-date {
     font-size: 14px;
     font-weight: bolder;
     color: #B29993;
@@ -150,28 +158,34 @@ h2 {
 }
 
 .case-study-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
     font-size: 40px;
-    color: #333333;
-    line-height: normal;
-    font-weight: bold;
+    color: #192A51;
 }
 
 .case-study-body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #3C3D54;
     font-size: 18px;
-    color: #18191F;
+
     margin-top: 32px;
     margin-bottom: 32px;
     margin-right: 170px;
 }
 
 .case-study-project {
-    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
     color: #B29993;
+    text-decoration: none;
+    font-size: 16px;
 }
 
 .case-study-project:hover {
     text-decoration: none;
-    color: #001A3C;
+    color: #B29993;
 }
 
 
@@ -190,18 +204,22 @@ h2 {
 }
 
 .footer-text {
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
     font-size: 20px;
     padding-left: 90px;
-    color: #3C3D54;
+    color: #192A51;
 }
 
 .footer-contacts li {
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
     text-decoration: none;
     display: inline;
     list-style-type: none;
     float: left;
     margin: -2px -4px 0 0;
-    font-size: 14px;
     padding-left: 60px;
 }
 
@@ -393,4 +411,31 @@ h2 {
 
 .more-projects a:hover {
     font-weight: 700;
+}
+
+.about-me-img {
+    box-shadow: 1px 2px 30px rgba(0, 0, 0, 0);
+    width: 130%;
+    margin: 50px 0 0 50px;
+}
+.about-me-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #192A51;
+    margin-bottom: 32px;
+}
+.about-me-container-color {
+    background-color: #F6F2EE;
+}
+
+.about-me-paragraph {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #3C3D54;
+}
+
+.about-me-paragraph li:not(:last-child) {
+    margin-bottom: 10px;
 }
