@@ -24,12 +24,6 @@ h2 {
     padding-top: 5px;
 }
 
-.intro {
-    font-size: 24px;
-    padding-top: 30px;
-    padding-right: 150px;
-}
-
 .hero-image {
     position: relative;
     /*background-color: #F5F1EE;*/
@@ -50,7 +44,7 @@ h2 {
 }
 
 .hero-image-case-study {
-    background-color: #F6F2EE;
+    background-color: #ECE4DE;
 }
 
 .logo {
@@ -65,9 +59,8 @@ h2 {
 
 .intro-img {
     box-shadow: 1px 2px 30px rgba(0, 0, 0, 0);
-    margin-bottom: 26px;
-    margin-top: 35px;
-    margin-left: 65px;
+    width: 90%;
+    margin: 100px 0 0 100px;
 }
 
 /* .custom-shape-divider-bottom-1644104701 {
@@ -100,16 +93,58 @@ h2 {
     padding: 150px;
 }
 
-.projects {
-    text-align: center;
-    font-size: 24px;
-    margin-top: 46px;
-    margin-bottom: 54px;
-    color: #D0CFCE;
+.hero-text-name {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: #192A51;
 }
+.hero-text-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: #B29993;
+}
+
+.intro {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-right: 150px;
+}
+
+.projects {
+    width: 100%;
+    border-bottom: 5px solid #F2F2F2;
+    line-height: 0.1em;
+    margin: 40px 0 20px;
+
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 64px;
+    color: #192A51;
+}
+
+.projects span {
+    background: #fff;
+    padding: 0 10px;
+}
+
+/*.projects {*/
+/*    font-family: 'Cormorant Garamond', serif;*/
+/*    font-weight: 700;*/
+/*    text-align: center;*/
+/*    font-size: 64px;*/
+/*    color: #192A51;*/
+/*    !*margin-top: 46px;*!*/
+/*    !*margin-bottom: 54px;*!*/
+/*}*/
 
 .case-study, .case-study-date {
     font-size: 14px;
+    font-weight: bolder;
     color: #B29993;
     margin-bottom: 10px;
 }
@@ -204,7 +239,7 @@ h2 {
 
 .cs-section-name {
     font-family: 'Lato', sans-serif;
-    font-weight: 400;
+    font-weight: 700;
     color: #B29993;
     font-size: 14px;
 }
@@ -237,6 +272,7 @@ h2 {
 .duration {
     text-align: center;
 }
+
 .duration span {
     font-size: 30px;
 }
@@ -250,9 +286,10 @@ h2 {
 }
 
 .cs-ideas {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 24px;
     margin: 0 0 50px 40px;
+    color: #192A51;
 }
 
 .cs-ideas img {
@@ -268,6 +305,21 @@ h2 {
 
 .cs-point-spacer {
     margin: 20px 0;
+}
+
+.finding-subsection {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 600;
+    font-size: 24px;
+    padding-left: 34px;
+}
+
+.final-solution-text-spacer {
+    padding: 0 40px 0 60px;
+}
+
+.final-solution-text-spacer-lg {
+    padding: 0 40px 0 80px;
 }
 
 .image-center {
@@ -333,6 +385,7 @@ h2 {
 .next-project {
     padding-top: 25px;
 }
+
 .next-project a, .next-project a:hover, .more-projects a, .more-projects a:hover {
     color: black;
     text-decoration: none;
