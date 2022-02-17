@@ -458,10 +458,16 @@ h2 {
     font-weight: 500;
     font-size: 64px;
     color: #192A51;
-    padding: 100px 0 50px 0;
+    padding: 100px 0 32px 0;
 }
 
-.contact-paragraph, .contact-form-names {
+.contact-paragraph {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.contact-form-names {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     font-size: 20px;
@@ -476,4 +482,9 @@ h2 {
 .contact-input {
     width: 100%;
     border: 1px solid #D4D4D4;
+    height: 55px;
+}
+
+input, textarea{
+    text-indent: 10px;
 }
