@@ -425,9 +425,10 @@ h2 {
     color: #192A51;
     margin-bottom: 32px;
 }
-.about-me-container-color {
+.about-me-container-color, .contact-container-color {
     background-color: #F6F2EE;
 }
+
 
 .about-me-paragraph {
     font-family: 'Lato', sans-serif;
@@ -438,4 +439,30 @@ h2 {
 
 .about-me-paragraph li:not(:last-child) {
     margin-bottom: 10px;
+}
+
+.about-me-paragraph a, .about-me-paragraph a:hover {
+    color: inherit;
+}
+
+.contact-form {
+    padding: 0 200px;
+}
+.contact-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;
+    font-size: 64px;
+    color: #192A51;
+    padding: 100px 0 50px 0;
+}
+.contact-paragraph, .contact-form-names {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.contact-message {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
 }
