@@ -54,7 +54,10 @@ h2 {
 }
 
 .hero-image-case-study {
-    background-color: #ECE4DE;
+    background-color: #F9F7F6;
+}
+.hero-image-case-study-sw {
+    background-color: #F5F6F9;
 }
 
 .logo {
@@ -153,10 +156,12 @@ h2 {
 }
 
 .case-study-date {
-    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
     font-weight: bolder;
-    color: #B29993;
+    color: #192A51;
     margin-bottom: 10px;
+    letter-spacing: 1px;
 }
 
 .case-study-title {
@@ -243,8 +248,12 @@ h2 {
     background-color: #F9F7F6;
 }
 
+.container-color-sw {
+    background-color: #F5F6F9;
+}
+
 .sugarwish-main-image {
-    max-width: 100%;
+    max-width: 120%;
 }
 
 .cs-hero-text {
@@ -255,19 +264,21 @@ h2 {
     font-family: 'Cormorant Garamond', serif;
     font-weight: 600;
     font-size: 58px;
+    color: #192A51;
 }
 
 .cs-section-name {
     font-family: 'Lato', sans-serif;
-    font-weight: 700;
-    color: #B29993;
-    font-size: 14px;
+    font-weight: 400;
+    color: #192A51;
+    font-size: 16px;
+    letter-spacing: 1px;
 }
 
 .cs-section-title {
     font-family: 'Cormorant Garamond', serif;
     font-weight: 600;
-    color: #27375B;
+    color: #192A51;
     font-size: 40px;
     margin: 8px 0 32px 0;
 }
@@ -377,7 +388,7 @@ h2 {
 }
 
 .spacer-md {
-    margin: 20px 0 10px 0;
+    margin: 0px 0 20px 0;
 }
 
 .spacer-left {
