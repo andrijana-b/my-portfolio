@@ -5,7 +5,9 @@ body {
 
 .mainnavigation {
     background-color: white;
-    box-shadow: 1px 2px 30px rgb(219, 219, 219)
+    box-shadow: 1px 2px 30px rgb(219, 219, 219);
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
 }
 
 #btn-back-to-top {
@@ -141,15 +143,6 @@ h2 {
     padding: 0 10px;
 }
 
-/*.projects {*/
-/*    font-family: 'Cormorant Garamond', serif;*/
-/*    font-weight: 700;*/
-/*    text-align: center;*/
-/*    font-size: 64px;*/
-/*    color: #192A51;*/
-/*    !*margin-top: 46px;*!*/
-/*    !*margin-bottom: 54px;*!*/
-/*}*/
 
 .case-study {
     font-family: 'Lato', sans-serif;
@@ -495,3 +488,24 @@ h2 {
 input, textarea{
     text-indent: 10px;
 }
+
+.user-interview {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 600;
+    font-size: 32px;
+    color: #192A51;
+}
+
+.numbers {
+    width: 2%;
+    margin-right: 8px;
+}
+
+.design-ideas {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+}
+
+
