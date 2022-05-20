@@ -10,7 +10,6 @@ document.getElementById("anaImg").onclick = enlargeImage
 document.getElementById("bojanImg").onclick = enlargeImage
 document.getElementById("homePageImg").onclick = enlargeImage
 document.getElementById("aboutUsImg").onclick = enlargeImage
-document.getElementById("userJourneyImg").onclick = enlargeImage
 document.getElementById("sportsImg").onclick = xlEnlargeImage
 document.getElementById("getInvolvedImg").onclick = xlEnlargeImage
 // document.getElementById("empathyMapImg").onclick = xlEnlargeImage

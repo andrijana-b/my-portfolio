@@ -283,6 +283,14 @@ h2 {
     margin: 8px 0 32px 0;
 }
 
+.cs-problem-solution-title {
+    font-family: 'Lato', serif;
+    font-weight: 400;
+    color: #192A51;
+    font-size: 30px;
+    margin: 8px 0 32px 0;
+}
+
 .cs-paragraph {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
@@ -331,7 +339,8 @@ h2 {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     font-size: 24px;
-    padding-left: 10px;
+    margin: 8px 0 32px 0;
+    /*padding-left: 10px;*/
 }
 
 .cs-point-spacer {
@@ -341,12 +350,11 @@ h2 {
 .finding-subsection {
     font-family: 'Cormorant Garamond', serif;
     font-weight: 600;
-    font-size: 24px;
-    padding-left: 34px;
+    font-size: 28px;
 }
 
 .final-solution-text-spacer {
-    padding: 0 40px 0 60px;
+    padding: 0 40px 0 50px;
 }
 
 .final-solution-text-spacer-lg {
