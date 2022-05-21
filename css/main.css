@@ -253,7 +253,7 @@ h2 {
     background-color: #F5F6F9;
 }
 
-.sugarwish-main-image {
+.main-image {
     max-width: 120%;
 }
 
@@ -569,22 +569,23 @@ input, textarea {
 .img-prototype {
     width: 80%;
 }
+.diamond-paragraph {
+    padding: 0 120px 0 0;
+}
+.img-how-might-we {
+    width: 80%;
+}
+.img-information-arch {
+    width: 60%;
+}
 
 @media screen and (max-width: 992px) {
     .cs-hero-text {
         padding: 40px;
     }
 
-    .sugarwish-main-image {
+    .main-image, .img-design-process, .img-prototype, .img-information-arch, .img-how-might-we {
         width: 100%;
-    }
-
-    .img-duration {
-        width: 100%;
-    }
-
-    .img-tools {
-        width: 28%;
     }
 
     .tools-web {
@@ -597,10 +598,6 @@ input, textarea {
 
     .tools-mobile img {
         width: 90%;
-    }
-
-    .img-design-process {
-        width: 100%;
     }
 
     .final-solution-text-spacer, .size-final-solution-spacer {
@@ -620,10 +617,12 @@ input, textarea {
         padding-top: 50px
     }
 
-    .img-prototype {
-        width: 100%;
-    }
     .outcomes {
         padding-right: 0;
     }
+
+    .diamond-paragraph {
+        padding: 0;
+    }
+
 }
