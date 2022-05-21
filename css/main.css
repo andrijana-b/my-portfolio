@@ -56,6 +56,7 @@ h2 {
 .hero-image-case-study {
     background-color: #F9F7F6;
 }
+
 .hero-image-case-study-sw {
     background-color: #F5F6F9;
 }
@@ -504,7 +505,7 @@ h2 {
     height: 55px;
 }
 
-input, textarea{
+input, textarea {
     text-indent: 10px;
 }
 
@@ -527,4 +528,102 @@ input, textarea{
     color: #000000;
 }
 
+.img-duration {
+    width: 55%;
+}
 
+.img-tools {
+    width: 15%;
+}
+
+.tools-web {
+    display: block;
+}
+
+.tools-mobile {
+    padding-top: 50px;
+    display: none;
+}
+
+.img-design-process {
+    width: 60%;
+    margin: 40px 0;
+}
+
+.img-type-of-gift-before {
+    margin-top: 100px;
+}
+.img-light-bulb {
+    width: 3%;
+}
+.size-final-solution-spacer {
+    padding: 0 40px 0 45px;
+}
+
+.img-e-card-before {
+    margin-top: 104px;
+}
+.img-shopping-card-before {
+    margin-top: 150px;
+}
+.img-prototype {
+    width: 80%;
+}
+
+@media screen and (max-width: 992px) {
+    .cs-hero-text {
+        padding: 40px;
+    }
+
+    .sugarwish-main-image {
+        width: 100%;
+    }
+
+    .img-duration {
+        width: 100%;
+    }
+
+    .img-tools {
+        width: 28%;
+    }
+
+    .tools-web {
+        display: none;
+    }
+
+    .tools-mobile {
+        display: block;
+    }
+
+    .tools-mobile img {
+        width: 90%;
+    }
+
+    .img-design-process {
+        width: 100%;
+    }
+
+    .final-solution-text-spacer, .size-final-solution-spacer {
+        padding: 0 10px 0 34px;
+    }
+
+    .img-type-of-gift-before, .img-e-card-before, .img-shopping-card-before {
+        margin-top: 10px;
+    }
+    .img-top-spacer {
+        margin-top: 20px;
+    }
+    .img-light-bulb {
+        width: 7%;
+    }
+    .col-spacer {
+        padding-top: 50px
+    }
+
+    .img-prototype {
+        width: 100%;
+    }
+    .outcomes {
+        padding-right: 0;
+    }
+}
