@@ -5,6 +5,7 @@
     <title>About me</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/main.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -16,41 +17,64 @@
 
 <body>
 
-
-<section class="about-me-container-color">
-    <div class="container cs-section-spacer">
-        <div class="row">
-            <div class="col-8">
-                <h1 class="about-me-title">HEY THERE!</h1>
-                <p class="about-me-paragraph">
-                    So you want to learn more about me?
-                </p>
-                <p class="about-me-paragraph">
-                    I'm a legal associate turned UX/UI Designer on a mission to <span class="fw-bold">improve human experiences through
-                    design.</span>
-                </p>
-                <ul class="about-me-paragraph" style="font-weight: 500">
-                    <li>I'm a UX/UI Designer!</li>
-                    <li>My background is in law.</li>
-                    <li><a href="https://blog.brainster.co/dream-team-septemvri-2021/" target="_blank">September 2021 -
-                        Best UX student at Brainster UX/UI Bootcamp</a></li>
-                    <li>I’m originally from North Macedonia and am currently living in the Netherlands</li>
-                    <li>My superpower is trying to understand and collaborating with people.</li>
-                    <li>I'm a curious person and always wonder "why?"</li>
-                    <li>If I could choose one thing to eat for the rest of my life, it would be pasta.</li>
+<div class="hero-image">
+    <nav class="navbar navbar-expand-lg navbar-light mainnavigation">
+        <div class="container">
+            <a href="index.html" class="navbar-brand d-flex w-50 me-auto">
+                <img src="img/logo-nobg.png" alt="Andrijana Bakracheski" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="nav navbar-nav ms-auto justify-content-end">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarScrollingDropdown" role="button"
+                           data-bs-toggle="dropdown" aria-expanded="false">
+                            Projects
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarScrollingDropdown">
+                            <li><a class="dropdown-item" href="suggarwish-case-study.html">Sugarwish</a></li>
+                            <li><a class="dropdown-item" href="#">Learning on the go</a></li>
+                            <li><a class="dropdown-item" href="special-olympics.html">Special Olympics</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="about-me.html">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="https://www.linkedin.com/in/andrijana-bakracheski-6043b5140/"
+                           target="_blank">Linkedin</a>
+                    </li>
                 </ul>
-                <p class="about-me-paragraph">
-                    Keep scrolling for more details!👇🏻
-                </p>
-            </div>
-            <div class="col">
-                <img src="img/my-photo-new.png" class="about-me-img" alt="Andrijana Bakracheski" style>
             </div>
         </div>
-    </div>
-</section>
+    </nav>
 
-<section>
+    <header>
+        <div class="container my-header-section-spacer">
+            <h1 class="about-me-title">HEY THERE!</h1>
+            <p class="about-me-paragraph">
+                I'm a legal associate turned UX/UI Designer on a mission to <span class="fw-bold">improve human experiences through
+                    design.</span>
+            </p>
+            <ul class="about-me-paragraph" style="font-weight: 500">
+                <li>I'm a UX/UI Designer!</li>
+                <li>My background is in law.</li>
+                <li><a href="https://blog.brainster.co/dream-team-septemvri-2021/" target="_blank">September 2021 -
+                    Best UX student at Brainster UX/UI Bootcamp</a></li>
+                <li>I’m originally from North Macedonia and I am currently living in the Netherlands</li>
+                <li>My superpower is trying to understand and collaborating with people.</li>
+                <li>I'm a curious person and always wonder "why?"</li>
+            </ul>
+            <p class="about-me-paragraph">
+                Keep scrolling for more details!👇🏻
+            </p>
+        </div>
+    </header>
+</div>
+
+<section class="about-me-container-color">
     <div class="container cs-section-spacer">
         <div class="row">
             <div class="col">
@@ -86,7 +110,7 @@
     </div>
 </section>
 
-<section class="about-me-container-color">
+<section>
     <div class="container cs-section-spacer">
         <h1 class="about-me-title">But why UX design?</h1>
         <p class="about-me-paragraph">
@@ -103,16 +127,28 @@
             Aside from this, I’m a big fan of playing with photography, skiing, chasing my energetic toddler and
             traveling.
         </p>
-        <div class="spacer-up"></div>
-        <div style="margin-left: -50px;">
-            <ul class="footer-contacts">
-                <li><a href="">CONTACT <i class=" fas fa-arrow-right"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/andrijana-bakracheski-6043b5140/" target="_blank">LINKEDIN
-                    <i class="fas fa-arrow-right"></i></a></li>
-            </ul>
-        </div>
     </div>
 </section>
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg">
+                <p class="footer-text">
+                    HAVE A QUESTION, SOME FEEDBACK OR AN IDEA? <br/>
+                    <span class="fw-bold">I’M OPEN FOR NEW OPPORTUNITIES</span>
+                </p>
+            </div>
+            <div class="col-lg d-flex footer-contacts">
+                <p class="footer-text">
+                    Contact <br/>
+                    <span class="fw-bold"> a.lalevik@gmail.com &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                        <a href="https://www.linkedin.com/in/andrijana-bakracheski-6043b5140/" target="_blank">Linkedin</a></span>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
 
 <!-- Back to top button -->
 <button

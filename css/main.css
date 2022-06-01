@@ -226,6 +226,7 @@ h2 {
     font-weight: 500;
     font-size: 20px;
     color: #192A51;
+    line-height: 46px;
 }
 
 .footer-contacts {
@@ -590,6 +591,10 @@ input, textarea {
         max-width: 80%;
     }
 
+    .my-hero-name {
+        font-size: 46px;
+    }
+
     .my-header-section-spacer {
         padding: 60px 0;
     }
@@ -617,10 +622,15 @@ input, textarea {
     .my-hero-text {
         padding-top: 10px;
         padding-right: 0;
+        font-size: 18px;
     }
 
     .my-hero-image-col {
         justify-content: center!important;
+    }
+
+    .footer {
+        padding: 50px 25px 100px 25px;
     }
 
     .footer-contacts {
