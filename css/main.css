@@ -151,7 +151,7 @@ h2 {
     font-family: 'Cormorant Garamond', serif;
     font-weight: 700;
     text-align: center;
-    font-size: 48px;
+    font-size: 40px;
     color: #F8F2E4;
 }
 
@@ -213,9 +213,8 @@ h2 {
 
 .case-study-project:hover {
     text-decoration: none;
-    color: #192A51;
+    color: #FAFAFA;
 }
-
 
 .case-study-box {
     padding-top: 200px;
@@ -297,8 +296,8 @@ h2 {
 }
 
 .cs-problem-solution-title {
-    font-family: 'Lato', serif;
-    font-weight: 400;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 600;
     color: #192A51;
     font-size: 30px;
     margin: 8px 0 32px 0;
@@ -308,17 +307,28 @@ h2 {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     font-size: 18px;
-    color: #3C3D54;
+    color: #192A51;
+    line-height: 32px;
 }
 
 .cs-bullet-points li {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     font-size: 18px;
+    color: #3C3D54;
+    margin: 20px 0;
 }
 
 .cs-paragraph a, .cs-bullet-points a {
     color: inherit;
+}
+
+.painpoint-solution-shortener {
+    padding-right: 100px;
+}
+
+.so-prototype-shortener {
+    padding-right: 70px;
 }
 
 .duration {
@@ -333,12 +343,50 @@ h2 {
     padding: 100px 0 100px 0;
 }
 
+.cs-final-design-section-spacer {
+    padding: 100px 0 50px 0;
+}
+
 .my-header-section-spacer-up {
     padding-top: 100px;
 }
 
 .cs-section-spacer-down {
     padding-bottom: 100px;
+}
+
+.goal-shortener {
+    padding-right: 270px;
+}
+
+.ideas-shortener {
+    padding-right: 120px;
+    padding-bottom: 32px; 
+}
+
+.login-ecard-img {
+    width: 60%;
+}
+
+.indicator-probem-img {
+    margin-top: 46px;
+    width: 80%;
+}
+
+.sw-prototype-div {
+    padding-top: 80px;
+}
+
+.donation-spacer-top {
+    padding-top: 120px;
+}
+
+.donation-page-paragraph {
+    padding-left: 46px;
+}
+
+.so-prototype-img {
+    width: 80%;
 }
 
 .cs-ideas {
@@ -412,10 +460,6 @@ h2 {
     margin: 2px;
 }
 
-.spacer-md {
-    margin: 0 0 20px 0;
-}
-
 .spacer-left {
     padding-left: 30px;
 }
@@ -440,6 +484,7 @@ h2 {
     font-family: 'Lato', serif;
     font-weight: 600;
     font-size: 24px;
+    color: #F8F2E4;
 }
 
 .next-project {
@@ -476,7 +521,7 @@ h2 {
 
 .about-me-paragraph {
     font-family: 'Lato', sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 18px;
     color: #192A51;
     line-height: 35px;
@@ -612,10 +657,28 @@ input, textarea {
     width: 60%;
 }
 
+.navbar-expand-lg .navbar-nav .nav-link {
+    /* override the navbar defaults */
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .dropdown-item {
+    /* override the navbar defaults */
+    color: #192A51 !important;
+    font-size: 18px !important;
+}
+
+.dropdown-menu {
+    border: none !important;
+}
+
 @media screen and (max-width: 992px) {
     .logo {
         max-width: 80%;
     }
+
+    
 
     .my-hero-name {
         font-size: 46px;
@@ -629,12 +692,17 @@ input, textarea {
         padding: 0;
     }
 
+    .case-study-title {
+        line-height: 46px;
+        padding-top: 8px;
+    }
+
     .case-study-body {
-        margin: 12px 0 12px 0;
+        margin: 24px 0 24px 0;
     }
 
     .case-study-box {
-        padding-top: 12px;
+        padding-top: 24px;
     }
 
     .web-version {
@@ -670,12 +738,20 @@ input, textarea {
         order: 2;
     }
 
+    .cs-title {
+        line-height: 62px;
+    }
+
     .cs-hero-text {
         padding: 40px;
     }
 
     .main-image, .img-design-process, .img-prototype, .img-information-arch, .img-how-might-we {
         width: 100%;
+    }
+
+    .img-design-process {
+        margin: 40px 0 0 0; 
     }
 
     .tools-web {
@@ -700,15 +776,67 @@ input, textarea {
     .img-top-spacer {
         margin-top: 20px;
     }
-    .img-light-bulb {
-        width: 7%;
-    }
+
     .col-spacer {
         padding-top: 50px
     }
 
     .cs-section-spacer {
         padding: 50px 0 50px 0;
+    }
+
+    .cs-section-spacer-down {
+        padding-bottom: 50px;
+    }
+
+    .mobile-spacer-up {
+        padding-top: 40px;
+    }
+
+    .painpoint-spacer-top, .sw-prototype-div {
+        padding-top: 32px;
+    }
+
+    .donation-spacer-top {
+        padding-top: 70px;
+    }
+
+    .so-prototype-shortener {
+        padding-right: 0;
+    }
+
+    .donation-page-paragraph {
+        padding-left: 22px;
+    }
+
+    .goal-shortener {
+        padding-right: 0;
+    }
+
+    .ideas-shortener {
+        padding-right: 0;
+        padding-bottom: 0;
+    }
+
+    .cs-final-design-section-spacer {
+        padding: 50px 0 20px 0;
+    }
+
+    .painpoint-solution-shortener {
+        padding-right: 0;
+    }
+
+    .login-ecard-img {
+        width: 100%;
+    }
+    
+    .indicator-probem-img {
+        margin-top: 0;
+        width: 98%;
+    }
+
+    .so-prototype-img {
+        width: 100%;
     }
 
     .outcomes {
@@ -752,8 +880,50 @@ input, textarea {
         margin-bottom: 12px;
     }
 
-    .mobile-spacer-up {
-        padding-top: 50px;
+    .contact-section {
+        padding-top: 42px;
     }
-
 }
+
+
+
+
+
+/* *{box-sizing: border-box;}
+body, html{width: 100%; height: 100%;}
+body{margin:0; padding:0; background: #ffcf27; font-family:sans-serif;}
+legend, label, input, ul, li{margin: 0; padding: 0;} */
+/* ul,li{list-style: none;}
+a{ text-decoration: none;}
+
+.input-toggler{ display: none;}
+.menu-toggler{position: absolute; right: 0px; top: 0px; width:80px; height: 70px; z-index: 100; display: flex; justify-content:center; align-items:center; flex-direction:column; cursor: pointer;}
+
+.menu-toggler-line{width: 40%; height:2px; background:#f4f4f4; margin: 0 0 10px 0px; position: relative; transition: all .40s ease-out;}
+
+.input-toggler:checked ~ .menu-toggler .menu-toggler-line {top: 5px; translateY:100px;  transform:rotate(45deg);}
+
+.input-toggler:checked ~ .menu-toggler .menu-toggler-line:nth-child(2) {display: none;}
+
+.input-toggler:checked ~ .menu-toggler .menu-toggler-line:nth-child(3) {top: -5px; translateY:10; transform:rotate(135deg);}
+
+.nav{ width: 100%; height: 100%; background:rgba(0,0,0, 0.8);}
+.nav ul{ width: 100%;}
+.nav ul li{ width: 100%; text-align: center;}
+.nav ul li a{display: inline-block; font-size: 36px; color: #fff; text-transform: uppercase;}
+
+.sidebar {position: absolute; top: 0; height: 100vh; width: 100%; background:#000; opacity: 0.5;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+transform: translateX(-100%);
+
+transition: all .40s ease-out;
+}
+
+.menu-link {color: white; font-size: 10vmin; line-height: 15vmin; -webkit-transition: all .25s ease-out; transition: all .25s ease-out;}
+.menu-link:hover, .menu-link:focus, .menu-link:active {color: Gold;}
+
+.input-toggler:checked ~ .sidebar {transform: translateX(0%); opacity: .98;} */
