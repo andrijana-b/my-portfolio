@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/menu.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -20,31 +21,39 @@
 <div class="hero-image-about-me">
     <div class="about-me-mobile-hero about-me-navigation-hero">
 
-   <!--      <div>
+    <div class="mobile-version">
+        <div>
             <a href="index.html" class="navbar-brand d-flex w-50 me-auto">
                 <img src="img/logo-nobg.png" alt="Andrijana Bakracheski" class="logo">
             </a>
-        <input type="checkbox" id="toggle" class="input-toggler">   
-        <label for="toggle" class="menu-toggler">
-            <span class="menu-toggler-line"></span>
-            <span class="menu-toggler-line"></span>
-            <span class="menu-toggler-line"></span>
-        </label>
-        
-        
-        <aside class="sidebar">
-        <ul class="menu">
-          <li><a class="menu-link" href="#">Home</a></li>
-          <li><a class="menu-link" href="#">Blog</a></li>
-          <li><a class="menu-link" href="#">Portfolio</a></li>
-          <li><a class="menu-link" href="#">About</a></li>
-          <li><a class="menu-link" href="#">Contact</a></li>
-        </ul>
-        </aside>
-    </div> -->
+            <input type="checkbox" id="toggle" class="input-toggler">   
+            <label for="toggle" class="menu-toggler">
+                <span class="menu-toggler-line menu-toggler-line-light"></span>
+                <span class="menu-toggler-line menu-toggler-line-light"></span>
+                <span class="menu-toggler-line menu-toggler-line-light"></span>
+            </label>
+            
+            
+            <aside class="sidebar">
+                <ul class="menu">
+                    <li><a class="menu-link" href="index.html">Home</a></li>
+                    <li><a class="menu-link" href="#">Projects</a></li>
+                    <li>
+                        <ul class="menu">
+                            <li><a class="menu-link" href="suggarwish-case-study.html">Sugarwish</a></li>
+                            <li><a class="menu-link" href="special-olympics.html">Special Olympics</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="menu-link" href="about-me.html">About me</a></li>
+                    <li><a class="menu-link"  href="https://www.linkedin.com/in/andrijana-bakracheski-6043b5140/"
+                        target="_blank">Linkedin</a></li>
+                </ul>
+            </aside>
+        </div>
+    </div>
 
 
-
+    <div class="web-version">
         <nav class="navbar navbar-expand-lg navbar-light about-me-navigation">
             <div class="container">
                 <a href="index.html" class="navbar-brand d-flex w-50 me-auto">
@@ -63,7 +72,6 @@
                             </a>
                             <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarScrollingDropdown">
                                 <li><a class="dropdown-item" href="suggarwish-case-study.html">Sugarwish</a></li>
-                                <li><a class="dropdown-item" href="#">Learning on the go</a></li>
                                 <li><a class="dropdown-item" href="special-olympics.html">Special Olympics</a></li>
                             </ul>
                         </li>
@@ -78,6 +86,9 @@
                 </div>
             </div>
         </nav>
+    </div>
+
+
         <img src="img/about-me/about-me-photo.png" class="mobile-version" style="width: 100%" alt="Andrijana Bakracheski">
     </div>
 
@@ -110,7 +121,7 @@
                         I studied UX design through a project-based program with Brainster Academy, which has given me a
                         holistic view of the <span class="fw-bold">entire UX design process</span>
                         and an appreciation for working on
-                        <span class="fw-bold">projects for real companies</span> from ideation to final design. I have
+                        <span class="fw-bold">projects for companies</span> from ideation to final design. I have
                         spent the past year studying the
                         UX design process, design tools, and psychology’s role in design.
                     </p>
@@ -119,7 +130,7 @@
                         adding to my knowledge of UX through books, courses, and online events. I am currently looking
                         for opportunities to grow as a UX/UI Designer.
                     </p>
-                    <p class="about-me-paragraph">
+                    <p class="about-me-paragraph about-me-contacts">
                         Feel free to reach out at <span class="fw-bold">a.lalevik@gmail.com</span> or <a
                             href="https://www.linkedin.com/in/andrijana-bakracheski-6043b5140/"
                             target="_blank"><span class="fw-bold">Linkedin</span></a>. I’d love to hear from you.
@@ -139,12 +150,12 @@
         <div class="row">
             <div class="col-lg">
                 <h1 class="about-me-title">EDUCATION</h1>
-                <p class="about-me-paragraph">
+                <p class="about-me-paragraph about-me-skills">
                     <span class="fw-bold">Brainster Academy</span><br/>
                     UX/UI Design<br/>
                     2021-2022
                 </p>
-                <p class="about-me-paragraph">
+                <p class="about-me-paragraph about-me-skills">
                     <span class="fw-bold">Faculty of Law,</span> Iustinianus Primus -<br/>
                     Skopje, North Macedonia<br/>
                     Bachelor of Laws
@@ -152,10 +163,11 @@
             </div>
             <div class="col-lg mobile-spacer-up">
                 <h1 class="about-me-title">SKILLS</h1>
-                <p class="about-me-paragraph">
+                <p class="about-me-paragraph about-me-skills">
                     UX/UI Design<br/>
-                    Qualitative & Quantitative Research<br/>
-                    User interviews & Surveys<br/>
+                    User Research<br/>
+                    User Interviews & Surveys<br/>
+                    User Flow<br/>
                     Information Architecture<br/>
                     Wireframing & Prototyping<br/>
                     Usability Testing<br/>
@@ -165,8 +177,8 @@
             </div>
             <div class="col-lg mobile-spacer-up">
                 <h1 class="about-me-title">TOOLS</h1>
-                <p class="about-me-paragraph">
-                    <img src="img/about-me/figma.png" alt="Figma" class="tools-img"> Figma <br/>
+                <p class="about-me-paragraph about-me-skills">
+                    <img src="img/about-me/figma.png" alt="Figma" class="tools-img">Figma <br/>
                     <img src="img/about-me/adobe-xd.png" alt="Adobe xd" class="tools-img">Adobe XD<br/>
                     <img src="img/about-me/in-vision.png" alt="InVision studio" class="tools-img">InVision studio<br/>
                     <img src="img/about-me/framer.png" alt="Framer" class="tools-img">Framer<br/>
@@ -206,11 +218,14 @@
         <div class="container about-me-achievements">
             <div class="row">
                 <div class="col-lg-4 d-flex justify-content-center">
-                    <img src="img/about-me/dream-team-img.png" alt="Andrijana Bakracheski" style="width: 80%">
+                    <a href="https://blog.brainster.co/dream-team-septemvri-2021/" class="case-study-project"
+                       target="_blank">
+                        <img src="img/about-me/dream-team-img.png" alt="Andrijana Bakracheski" class="dream-team-img">
+                    </a>
                 </div>
                 <div class="col-lg-8 mobile-spacer-up">
                     <div class="case-study">
-                        Featured on brainster
+                        FEATURED ON BRAINSTER
                     </div>
                     <div class="case-study-title">
                         DREAM TEAM - students in September
@@ -249,7 +264,7 @@
                 <p class="footer-text contact-section">
                     CONTACT <br/>
                     <span class="fw-bold"> a.lalevik@gmail.com &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-                        <a href="https://www.linkedin.com/in/andrijana-bakracheski-6043b5140/" target="_blank">Linkedin</a></span>
+                    <a href="https://www.linkedin.com/in/andrijana-bakracheski-6043b5140/" target="_blank">Linkedin</a></span>
                 </p>
             </div>
         </div>

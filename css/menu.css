@@ -1,0 +1,104 @@
+/**{box-sizing: border-box;}
+body, html{width: 100%; height: 100%;}
+body{margin:0; padding:0; background: #ffcf27; font-family:sans-serif;}
+legend, label, input, ul, li{margin: 0; padding: 0;} 
+ul,li{list-style: none;}
+a{ text-decoration: none;}*/
+
+.input-toggler {
+    display: none;
+}
+
+.menu-toggler {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 80px;
+    height: 70px;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.menu-toggler-line {
+    width: 40%;
+    height: 2px;
+    margin: 0 0 10px 0px;
+    position: relative;
+    transition: all .40s ease-out;
+}
+
+.menu-toggler-line-light {
+    background: #f4f4f4;
+}
+
+.menu-toggler-line-dark {
+    background: #192A51;
+}
+
+.input-toggler:checked~.menu-toggler .menu-toggler-line {
+    top: 5px;
+    translateY: 100px;
+    transform: rotate(45deg);
+}
+
+.input-toggler:checked~.menu-toggler .menu-toggler-line:nth-child(2) {
+    display: none;
+}
+
+.input-toggler:checked~.menu-toggler .menu-toggler-line:nth-child(3) {
+    top: -5px;
+    translateY: 10;
+    transform: rotate(135deg);
+}
+
+/* .nav { width: 100%; height: 100%; background:rgba(0,0,0, 0.8);}
+.nav ul{ width: 100%;}
+.nav ul li{ width: 100%; text-align: center;}
+.nav ul li a{display: inline-block; font-size: 36px; color: #fff; text-transform: uppercase;} */
+
+.sidebar {
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    background: #000;
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(-100%);
+    transition: all .40s ease-out;
+}
+
+.menu ul, .menu li {
+    list-style: none;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.menu-link {
+    color: #f4f4f4;
+    font-size: 10vmin;
+    line-height: 15vmin;
+    -webkit-transition: all .25s ease-out;
+    transition: all .25s ease-out;
+    font-family: 'Lato', sans-serif;
+    font-size: 28px;
+}
+
+.menu-link:hover,
+.menu-link:focus,
+.menu-link:active {
+    color: white;
+}
+
+.input-toggler:checked~.sidebar {
+    transform: translateX(0%);
+    opacity: .98;
+}
