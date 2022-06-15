@@ -44,6 +44,7 @@ h2 {
     background-image: url("../img/hero-background.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    background-color: #F4F2F1;
 }
 
 .hero-image-about-me {
@@ -88,22 +89,41 @@ h2 {
 .my-hero-name {
     font-family: 'Cormorant Garamond', serif;
     font-weight: 700;
-    font-size: 48px;
+    font-size: 62px;
     color: #192A51;
 }
 
 .my-hero-title {
     font-family: 'Cormorant Garamond', serif;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 40px;
     color: #192A51;
+    padding-top: 8px;
 }
 .my-hero-text {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     font-size: 20px;
-    padding-top: 30px;
-    padding-right: 150px;
+    color: #192A51;
+    line-height: 42px;
+    padding: 32px 150px 0 150px;
+}
+
+.btn-contact {
+    margin-top: 24px !important;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+    background-color: #11151A !important;
+    color: #FFF !important;
+    letter-spacing: 2px;
+}
+
+.hero-text-alignment {
+    text-align: center;
+}
+
+.my-header-section-spacer {
+    padding: 200px 0;
 }
 
 .col-sm .hero-text {
@@ -144,7 +164,7 @@ h2 {
 
 .projects {
     width: 100%;
-    border-bottom: 1px solid #F8F2E4;
+    border-bottom: 1px solid #F4F2F1;
     line-height: 0.1em;
     margin: 0 0 20px;
 
@@ -152,7 +172,7 @@ h2 {
     font-weight: 700;
     text-align: center;
     font-size: 40px;
-    color: #F8F2E4;
+    color: #F4F2F1;
 }
 
 .projects span {
@@ -189,21 +209,25 @@ h2 {
     font-family: 'Cormorant Garamond', serif;
     font-weight: 700;
     font-size: 40px;
-    color: #FEFEFE;
+    color: #F4F2F1;
     line-height: 54px;
 }
 
-.case-study-body {
+.case-study-body, .case-study-body-suggar {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
-    color: #FEFEFE;
+    color: #F4F2F1;
     font-size: 18px;
     line-height: 36px;
 
     margin: 32px 170px 32px 0;
 }
 
-.case-study-project {
+.case-study-body-suggar {
+    margin: 32px 70px 32px 0 !important;
+}
+
+.case-study-project, .case-study-project-comming-soon {
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     color: #B29993;
@@ -218,6 +242,15 @@ h2 {
 
 .case-study-box {
     padding-top: 200px;
+}
+
+.case-study-box-suggar {
+    padding-top: 150px;
+}
+
+
+.case-study-box-space-left {
+    padding-left: 60px !important;
 }
 
 .footer {
@@ -343,7 +376,7 @@ h2 {
     font-size: 30px;
 }
 
-.cs-section-spacer, .header-section-spacer, .my-header-section-spacer {
+.cs-section-spacer, .header-section-spacer {
     padding: 100px 0 100px 0;
 }
 
@@ -518,8 +551,12 @@ h2 {
     margin-bottom: 32px;
 }
 
-.about-me-container-color, .contact-container-color {
+.contact-container-color {
     background-color: #F6F2EE;
+}
+
+.about-me-container-color {
+    background-color: #F4F2F1;
 }
 
 
@@ -529,10 +566,7 @@ h2 {
     font-size: 18px;
     color: #192A51;
     line-height: 35px;
-}
-
-.about-me-paragraph li:not(:last-child) {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .about-me-achievements {
@@ -665,6 +699,13 @@ input, textarea {
     font-size: 18px !important;
 }
 
+.nav-item:hover {
+    /* border-style: solid; */
+    /* border-color: #E9ECEF; */
+    background-color: #E9ECEF;
+}
+
+
 .dropdown-menu {
     border: none !important;
 }
@@ -714,8 +755,12 @@ input, textarea {
         margin: 24px 0 24px 0;
     }
 
-    .case-study-box {
+    .case-study-box, .case-study-box-suggar {
         padding-top: 24px;
+    }
+
+    .case-study-box-space-left {
+        padding-left: 12px !important;
     }
 
     .web-version {
@@ -726,10 +771,33 @@ input, textarea {
         display: block;
     }
 
+    .hero-image {
+        background-image: none;
+    }
+
+    .my-hero-title {
+        font-size: 32px;
+        padding-bottom: 6px;
+    }
+
     .my-hero-text {
+        padding: 10px 0 0 0;
         padding-top: 10px;
         padding-right: 0;
         font-size: 18px;
+    }
+
+    .hero-text-alignment {
+        text-align: left;
+    }
+
+    .btn-contact {
+        margin-top: 24px !important;
+        padding: 16px 50px !important;
+    }
+
+    .btn-contact-wrapper {
+        text-align: center;
     }
 
     .my-hero-image-col {

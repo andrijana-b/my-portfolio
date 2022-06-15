@@ -95,7 +95,7 @@ a{ text-decoration: none;}*/
 .menu-link:hover,
 .menu-link:focus,
 .menu-link:active {
-    color: white;
+    color: #B29993;
 }
 
 .input-toggler:checked~.sidebar {
