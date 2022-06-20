@@ -111,11 +111,14 @@ h2 {
 
 .btn-contact {
     margin-top: 24px !important;
-    padding-left: 50px !important;
-    padding-right: 50px !important;
+    padding: 18px 32px !important;
     background-color: #11151A !important;
     color: #FFF !important;
     letter-spacing: 2px;
+}
+
+.btn-contact:hover {
+    background-color: #212832 !important;
 }
 
 .hero-text-alignment {
@@ -420,11 +423,11 @@ h2 {
 }
 
 .donation-spacer-top {
-    padding-top: 120px;
+    padding-top: 160px;
 }
 
 .donation-page-paragraph {
-    padding-left: 46px;
+    padding-top: 16px;
 }
 
 .so-prototype-img {
@@ -646,7 +649,7 @@ input, textarea {
 }
 
 .img-tools {
-    width: 15%;
+    width: 30%;
 }
 
 .tools-web {
@@ -656,6 +659,20 @@ input, textarea {
 .tools-mobile {
     padding-top: 50px;
     display: none;
+}
+
+.btn-skip-to-result {
+    color: #192A51 !important;
+    letter-spacing: 1px !important;
+    border-color: #f1f1f1 !important;
+    background-color: #f4f4f4 !important;
+    font-size: 14px !important;
+    padding: 18px 32px !important;
+}
+
+.btn-skip-to-result:hover {
+    color: #FFF !important;
+    background-color: #27417e !important;
 }
 
 .img-design-process {
@@ -797,7 +814,6 @@ input, textarea {
 
     .btn-contact {
         margin-top: 24px !important;
-        padding: 16px 50px !important;
     }
 
     .btn-contact-wrapper {
@@ -851,6 +867,7 @@ input, textarea {
         width: 90%;
     }
 
+
     .final-solution-text-spacer, .size-final-solution-spacer {
         padding: 0 10px 0 34px;
     }
@@ -892,10 +909,6 @@ input, textarea {
 
     .so-prototype-shortener {
         padding-right: 0;
-    }
-
-    .donation-page-paragraph {
-        padding-left: 22px;
     }
 
     .goal-shortener {
